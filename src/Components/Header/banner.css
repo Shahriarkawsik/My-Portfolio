@@ -1,0 +1,25 @@
+@property --border-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes borderRotate {
+    to {
+        --border-angle: 360deg;
+    }
+}
+
+.animated-border:hover {
+    border: 1px solid transparent;
+    background:
+        linear-gradient(to right, #0a192f, #0a192f) padding-box,
+        /* Inner background */
+        conic-gradient(from var(--border-angle), #ff5733, #33ff57, #5733ff, #ff5733) border-box;
+    
+    animation: borderRotate 3s linear infinite paused;
+}
+
+.animated-border:hover {
+    animation-play-state: running;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+  --font-Raleway : "Raleway";
+  --color-color1 : #d1d5db;
+  --color-color2 : #0a192f;
+  --color-color3 : rgb(24, 48, 69);
+  --color-color4 : #db2777;
+  --color-color5 : #ccd6f6;
+  --color-color6 : #8892b0;
+  --color-facebook : rgb(8, 102, 255);
+  --color-github : #333333;
+  --color-linkedIn : rgb(10, 102, 194);
+  --color-whatsApp : #25d366;
+
+  --leading-72: 72px;
+}
+
+a.active{
+  color: blueviolet;
+}
