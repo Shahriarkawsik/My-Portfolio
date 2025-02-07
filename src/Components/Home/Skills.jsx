@@ -16,7 +16,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center gap-2 rounded-xl shadow-[0px_4px_6px_-1px_rgb(4,12,22),0px_2px_4px_-2px_rgb(4,12,22)] p-5"
+            className="flex flex-col justify-center items-center gap-2 rounded-xl shadow-[0px_4px_6px_-1px_rgb(4,12,22),0px_2px_4px_-2px_rgb(4,12,22)] p-5 hover:scale-105 transition-all"
           >
             <figure className="w-20 h-20">
               <img

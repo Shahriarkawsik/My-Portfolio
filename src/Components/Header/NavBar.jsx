@@ -21,9 +21,9 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="max-sm:px-2 max-lg:px-4 py-6">
-      <div className="navbar bg-color3 lg:w-4/5 mx-auto rounded-xl sm:rounded-2xl px-3 sticky max-sm:mx-2 my-6">
-        {/* start */}
+    <div className="fixed top-0 left-0 right-0 lg:w-4/5 mx-auto max-sm:px-2 max-lg:px-4 py-4 z-50">
+      <div className="navbar bg-color3 rounded-xl sm:rounded-2xl px-3 max-sm:mx-2 my-2 shadow-md">
+        {/* Start */}
         <div className="navbar-start text-color1 space-x-3">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="lg:hidden">
@@ -34,13 +34,12 @@ const NavBar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
+                />
               </svg>
             </div>
             <ul
@@ -58,7 +57,7 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItems}</ul>
         </div>
-        {/* Right  */}
+        {/* Right */}
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
