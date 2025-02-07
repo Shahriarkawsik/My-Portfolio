@@ -10,10 +10,10 @@ import {
 
 const Home = () => {
   return (
-    <div className="lg:space-y-20 relative">
+    <div className="space-y-10 lg:space-y-20 relative">
       {/* Social Icons */}
 
-      <div className="fixed top-1/3 left-0 flex flex-col gap-3 z-50">
+      <div className="fixed lg:top-2/3 xl:top-1/4 left-0 flex flex-col gap-3 z-50 max-lg:hidden">
         {/* Facebook */}
         <button className="bg-facebook px-2 py-3 transition-all duration-300 lg:-translate-x-[115px] lg:hover:translate-x-0 rounded-r-md">
           <a
@@ -30,7 +30,7 @@ const Home = () => {
         <button className="bg-linkedIn px-2 py-3 transition-all duration-300 lg:-translate-x-[115px] lg:hover:translate-x-0 rounded-r-md">
           <a
             className="flex items-center justify-between gap-2"
-            href="https://www.facebook.com/shahriar.kawsik"
+            href="https://www.linkedin.com/in/md-shahriar-kabir-cse"
             target="_blank"
           >
             <span className="text-color1 text-2xl leading-6">LinkedIn</span>
@@ -42,7 +42,7 @@ const Home = () => {
         <button className="bg-github px-2 py-3 transition-all duration-300 lg:-translate-x-[115px] lg:hover:translate-x-0 rounded-r-md">
           <a
             className="flex items-center justify-between gap-2"
-            href="https://www.facebook.com/shahriar.kawsik"
+            href="https://github.com/Shahriarkawsik"
             target="_blank"
           >
             <span className="text-color1 text-2xl leading-6">Github</span>
@@ -54,7 +54,7 @@ const Home = () => {
         <button className="bg-whatsApp px-2 py-3 transition-all duration-300 lg:-translate-x-[115px] lg:hover:translate-x-0 rounded-r-md">
           <a
             className="flex items-center justify-between gap-2"
-            href="https://www.facebook.com/shahriar.kawsik"
+            href="https://wa.me/01793747139"
             target="_blank"
           >
             <span className="text-color1 text-2xl leading-6">WhatsApp</span>
