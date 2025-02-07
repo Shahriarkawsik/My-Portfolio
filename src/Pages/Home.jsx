@@ -1,4 +1,5 @@
 import Banner from "../Components/Header/Banner";
+import Contact from "../Components/Home/Contact";
 import Projects from "../Components/Home/Projects";
 import Skills from "../Components/Home/Skills";
 import {
@@ -66,6 +67,7 @@ const Home = () => {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 };

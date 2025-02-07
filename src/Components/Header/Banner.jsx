@@ -15,7 +15,7 @@ const Banner = () => {
           Md. Shahriar Kabir
         </h1>
         <p className="text-color6 text-justify sm:text-2xl">
-          I’m a full-stack developer specializing in building (and occasionally
+          I’m a frontend developer specializing in building (and occasionally
           designing) exceptional digital experiences. I Am Graduated From
           <strong>
             {" "}

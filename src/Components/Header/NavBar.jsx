@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import resume from "../../assets/ShahriarCV.pdf";
+import { FaDownload } from "react-icons/fa6";
 const NavBar = () => {
   const navItems = (
     <>
@@ -59,7 +60,13 @@ const NavBar = () => {
         </div>
         {/* Right */}
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a href={resume} download="Resume">
+            <button className="btn">
+              <FaDownload />
+              <span className="text-xl">Resume</span>
+            </button>
+          </a>
+          {/* <a className="btn">Button</a> */}
         </div>
       </div>
     </div>
