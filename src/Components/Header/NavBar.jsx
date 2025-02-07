@@ -66,7 +66,6 @@ const NavBar = () => {
               <span className="text-xl">Resume</span>
             </button>
           </a>
-          {/* <a className="btn">Button</a> */}
         </div>
       </div>
     </div>
