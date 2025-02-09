@@ -2,7 +2,11 @@ import { skills } from "../../JavaScript/skills";
 
 const Skills = () => {
   return (
-    <section className=" font-Raleway w-11/12 lg:w-4/5 mx-auto lg:space-y-20">
+    <section
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      className=" font-Raleway w-11/12 lg:w-4/5 mx-auto lg:space-y-20"
+    >
       <div className="space-y-6">
         <h1 className="text-4xl leading-10 text-color1 font-bold border-b-4 border-pink-600 inline ">
           Skills
@@ -15,6 +19,8 @@ const Skills = () => {
         {/* Html */}
         {skills.map((skill, index) => (
           <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
             key={index}
             className="flex flex-col justify-center items-center gap-2 rounded-xl shadow-[0px_4px_6px_-1px_rgb(4,12,22),0px_2px_4px_-2px_rgb(4,12,22)] p-5 hover:scale-105 transition-all"
           >

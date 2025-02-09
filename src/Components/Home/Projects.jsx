@@ -15,9 +15,15 @@ const Projects = () => {
       {/* Projects */}
       <div className="space-y-6">
         {/* Project one */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center  max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center  max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all"
+        >
           <figure className="col-span-1 w-full">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
               className="w-full h-full rounded-2xl  bg-fixed "
               src={project1}
               alt=""
@@ -81,9 +87,15 @@ const Projects = () => {
           </div>
         </div>
         {/* Project Two */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all"
+        >
           <figure className="col-span-1 w-full">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
               className="w-full h-full rounded-2xl  bg-fixed "
               src={project2}
               alt=""
@@ -147,9 +159,15 @@ const Projects = () => {
           </div>
         </div>
         {/* Project  three*/}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center max-lg:space-y-5 p-3 rounded-xl sm:rounded-2xl bg-color3 hover:scale-105 transition-all"
+        >
           <figure className="col-span-1 w-full">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
               className="w-full h-full rounded-2xl  bg-fixed "
               src={project3}
               alt=""

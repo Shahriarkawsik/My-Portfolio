@@ -1,29 +1,31 @@
 import { Link } from "react-router-dom";
 import resume from "../../assets/ShahriarCV.pdf";
 import { FaDownload } from "react-icons/fa6";
+
 const NavBar = () => {
   const navItems = (
     <>
-      <li className="text-2xl sm:text-3xl lg:text-xl font-semibold font-Raleway text-color1">
+      <li className="text-lg sm:text-xl lg:text-xl font-semibold font-Raleway text-color1">
         <Link to={"/"}>Home</Link>
       </li>
-      <li className="text-2xl sm:text-3xl lg:text-xl font-semibold font-Raleway text-color1">
+      <li className="text-lg sm:text-xl lg:text-xl font-semibold font-Raleway text-color1">
         <Link to={"/"}>About</Link>
       </li>
-      <li className="text-2xl sm:text-3xl lg:text-xl font-semibold font-Raleway text-color1">
+      <li className="text-lg sm:text-xl lg:text-xl font-semibold font-Raleway text-color1">
         <Link to={"/"}>Skill</Link>
       </li>
-      <li className="text-2xl sm:text-3xl lg:text-xl font-semibold font-Raleway text-color1">
+      <li className="text-lg sm:text-xl lg:text-xl font-semibold font-Raleway text-color1">
         <Link to={"/"}>Projects</Link>
       </li>
-      <li className="text-2xl sm:text-3xl lg:text-xl font-semibold font-Raleway text-color1">
+      <li className="text-lg sm:text-xl lg:text-xl font-semibold font-Raleway text-color1">
         <Link to={"/"}>Contact</Link>
       </li>
     </>
   );
+
   return (
-    <div className="fixed top-0 left-0 right-0 lg:w-4/5 mx-auto max-sm:px-2 max-lg:px-4 py-4 z-50">
-      <div className="navbar bg-color3 rounded-xl sm:rounded-2xl px-3 max-sm:mx-2 my-2 shadow-md">
+    <div className="fixed w-11/12 sm:px-8 lg:w-4/5 left-0 right-0  mx-auto py-4 z-50">
+      <div className="navbar bg-color3 rounded-xl sm:rounded-2xl shadow-md">
         {/* Start */}
         <div className="navbar-start text-color1 space-x-3">
           <div className="dropdown">
@@ -50,20 +52,20 @@ const NavBar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="text-color1 text-2xl font-Raleway uppercase font-bold">
+          <a className="text-color1 text-xl sm:text-2xl font-Raleway uppercase font-bold">
             Shahriar
           </a>
         </div>
         {/* Nav Items: center */}
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navItems}</ul>
+          <ul className="menu menu-horizontal px-1 space-x-4">{navItems}</ul>
         </div>
         {/* Right */}
         <div className="navbar-end">
           <a href={resume} download="Resume">
-            <button className="btn">
+            <button className="btn btn-sm sm:btn-md">
               <FaDownload />
-              <span className="text-xl">Resume</span>
+              <span className="text-lg sm:text-xl">Resume</span>
             </button>
           </a>
         </div>

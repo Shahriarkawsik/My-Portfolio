@@ -44,7 +44,11 @@ const Contact = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center gap-8 lg:space-y-20">
         {/* form */}
-        <div className="text-white space-y-7 sm:space-y-10 lg:space-y-10">
+        <div
+          // data-aos="fade-right"
+          // data-aos-duration="1000"
+          className="text-white space-y-7 sm:space-y-10 lg:space-y-10"
+        >
           <h1 className="text-2xl sm:text-4xl lg:text-4xl font-bold text-color1 text-center">
             Let’s Message me
           </h1>
@@ -96,7 +100,13 @@ const Contact = () => {
             />
           </form>
         </div>
-        <div className="space-y-16">
+        {/* social contact */}
+        <div
+          // Commented by sakib
+          // data-aos="fade-left"
+          // data-aos-duration="1000"
+          className="space-y-16"
+        >
           <div className="space-y-5">
             <h1 className="text-2xl sm:text-4xl lg:text-4xl font-bold text-color1 text-center">
               Let’s Connect
@@ -105,48 +115,56 @@ const Contact = () => {
               Get in touch with me via social media or send me an email.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-10 items-center justify-center">
+          <div className="grid grid-cols-2 gap-5 items-center justify-center">
             {/* Facebook */}
-            <div className="flex justify-center items-center gap-5">
+            <div className="flex justify-center items-center gap-2">
               <button className="rounded-full p-2 bg-facebook">
                 <a
                   href="https://www.facebook.com/shahriar.kawsik"
                   target="_blank"
                 >
-                  <FaFacebookF className="text-white font-extrabold text-2xl" />
+                  <FaFacebookF className="text-white font-extrabold text-xs" />
                 </a>
               </button>
-              <h1 className="text-xl font-medium text-facebook">Facebook</h1>
+              <h1 className="text-base md:text-xl font-medium text-facebook">
+                Facebook
+              </h1>
             </div>
             {/* LinkedIn */}
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-2">
               <button className="rounded-full p-2 bg-linkedIn">
                 <a
                   href="https://www.linkedin.com/in/md-shahriar-kabir-cse"
                   target="_blank"
                 >
-                  <FaLinkedinIn className="text-white font-extrabold text-2xl" />
+                  <FaLinkedinIn className="text-white font-extrabold text-xs" />
                 </a>
               </button>
-              <h1 className="text-xl font-medium text-linkedIn">LinkedIn</h1>
+              <h1 className="text-base md:text-xl font-medium text-linkedIn">
+                LinkedIn
+              </h1>
             </div>
             {/* Github */}
-            <div className="flex justify-center items-center gap-5">
+            <div className="flex justify-center items-center gap-2">
               <button className="rounded-full p-2 bg-github">
                 <a href="https://github.com/Shahriarkawsik" target="_blank">
-                  <FaGithub className="text-white font-extrabold text-2xl" />
+                  <FaGithub className="text-white font-extrabold text-xs" />
                 </a>
               </button>
-              <h1 className="text-xl font-medium text-github">Github</h1>
+              <h1 className="text-base md:text-xl font-medium text-github">
+                Github
+              </h1>
             </div>
             {/* WhatsApp */}
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-2">
               <button className="rounded-full p-2 bg-whatsApp">
                 <a href="https://wa.me/01793747139" target="_blank">
-                  <FaWhatsapp className="text-white font-extrabold text-2xl" />
+                  <FaWhatsapp className="text-white font-extrabold text-xs" />
                 </a>
               </button>
-              <h1 className="text-xl font-medium text-whatsApp">WhatsApp</h1>
+              <h1 className="text-base md:text-xl font-medium text-whatsApp">
+                WhatsApp
+              </h1>
             </div>
           </div>
         </div>
