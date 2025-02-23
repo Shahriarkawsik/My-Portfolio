@@ -66,6 +66,7 @@ const NavBar = () => {
           <a
             href="https://drive.google.com/file/d/1NNw5nYFSVrbthfPKGUnVwDFvQoft5gzX"
             download="Resume"
+            target="_blank"
           >
             <button className="btn btn-sm sm:btn-md">
               <FaDownload />
