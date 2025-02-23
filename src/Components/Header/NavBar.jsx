@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "../../assets/ShahriarCV.pdf";
+import resume from "../../assets/Resume.pdf";
 import { FaDownload } from "react-icons/fa6";
 
 const NavBar = () => {
